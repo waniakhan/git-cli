@@ -197,13 +197,13 @@
     // console.log(newInnovators)
 
 
-    var userName = "wania"
-    console.log(userName[0].toUpperCase(),userName[1].toLowerCase(), userName[2].toUpperCase(), userName[3].toLowerCase(), userName[4].toUpperCase())
-    var firstChar = userName.slice(0, 1);
-    var otherChars = userName.slice(1);
-    firstChar = firstChar.toUpperCase();
- otherChars = otherChars.toLowerCase();
-  console.log(cappedCity = firstChar + otherChars);
+//     var userName = "wania"
+//     console.log(userName[0].toUpperCase(),userName[1].toLowerCase(), userName[2].toUpperCase(), userName[3].toLowerCase(), userName[4].toUpperCase())
+//     var firstChar = userName.slice(0, 1);
+//     var otherChars = userName.slice(1);
+//     firstChar = firstChar.toUpperCase();
+//  otherChars = otherChars.toLowerCase();
+//   console.log(cappedCity = firstChar + otherChars);
 //     let innovators = ["faiza", "laiba", "areeha", "shabana", "alif"]
 //     var fathers = ["khan", "ali", "abid", "ishtiyaq", "azeem"]
 //    var fullName = []
@@ -247,6 +247,9 @@
 //      alert("It's one of the cleanest cities");
 //      } 
 //     } 
+
+
      
-     
+
+    
 
