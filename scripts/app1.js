@@ -34,6 +34,7 @@
 // by multiplying the selected method's price with the number of family members.
 // Finally, display the calculated fitrah amount using an alert message.
 
+//.....FITRAH CALCULATOR.....
 // var familyMembers = prompt("Enter Your Family Members");
 // var fitraForm =  prompt("Select the Name which you want: 1. wheat 250\ 2. dates 2100\ 3. kishmish 2800\ 4. barley 450 ")
 
@@ -52,7 +53,7 @@
 //     alert("Your fitra value is " + fitraForm4 )
 // }    
 // else {
-//     alert("It is on the list")
+// alert("It is not on the list")
 
 // }   
 
@@ -153,6 +154,7 @@
 // If the person is under 18, the program should display a message saying they are not eligible
 // to vote
 
+//ELIGIBLE FOR VOTE:
 // var nationality = prompt("Enter Your Nationality")
 // var gender = prompt("Enter Your Gender")
 // var age = prompt("Enter Your Age")
@@ -187,4 +189,5 @@
 // console.log(pakistaniTeamPlayers)
 // var pakistaniTeamPlayers2 = pakistaniTeamPlayers.slice(0, 11)
 // console.log(pakistaniTeamPlayers2)
+
 

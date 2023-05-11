@@ -246,7 +246,8 @@
 //      if (cityToCheck === cleanestCities[i]) {
 //      alert("It's one of the cleanest cities");
 //      } 
-//     } 
+//     }
+ 
 
 
      
