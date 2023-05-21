@@ -248,9 +248,783 @@
 //      } 
 //     }
  
+//  var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+//  var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+//  var fullNames = [];
+//  for (var i = 0; i < firstNames.length; i++) {
+//  for (var j = 0; j < lastNames.length; j++) {
+//  fullNames.push(firstNames[i] + lastNames[j]);
 
+//  }
+//  }
 
-     
+//  console.log(fullNames)
 
+    // REPLACING THE TEXT:
+// var sentence = 'refrence site about loreum, you can check loreum, lorem is a sentence of english word is a you';
+// var textToReplace = "word is a you"
+// var textToInsert = "yes";
+
+// var newText = sentence.replace(textToReplace,textToInsert)
+// console.log(newText)
+
+// for (var i = 0; i<sentence.length ; i++) {
+//     if (sentence.slice (i, i+ textToReplace.length)== textToReplace) {
+//         sentence = sentence.slice(0, i) + 'yes' + sentence.slice(i + textToReplace.length)
+//     }
+
+// }
+// console.log(sentence);
+
+//REPLACING THE TEXT IN SHORT FORM:
+
+// var sentence = 'refrence site about loreum, you can check loreum, lorem is a sentence of english word is a you';
+// var textToReplace = "word is a you"
+// var textToInsert = "yes";
+
+// var newText = sentence.replace(textToReplace,textToInsert)
+// console.log(newText)
+//tell the total values of any word
+//     var sen = 'hello! world , hello banoqabil , hello universe';
+//     // console.log(sen.indexOf("hello"));
+//     // console.log(sen.lastIndexOf("hello"));
     
+// console.log(sen.replace(/hello/g, 'hi'))//(globally word ko change karna) saray text ko agar replace karna hai to aese karyngy
+// var user = 'wAnia';
+// console.log(user.charAt(user.length-1))
+
+
+
+// var myNum= (Math.round(Math.random()*10))
+// // console.log(Math.round(myNum))
+// // console.log(Math.floor(myNum))
+// // console.log(Math.ceil(myNum))
+// console.log(myNum)
+
+// var myNum= (Math.round(Math.random()*10))
+// console.log(Number (myNum.toFixed(3)))//point k bad jitni values lene hn
+// console.log(parseFloat (myNum.toFixed(3)))
+
+// var rightNow = new Date()
+// var dayNames = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+// console.log(rightNow.getDate())
+// console.log(dayNames [rightNow.getDay()])
+// console.log(rightNow.getFullYear())
+// console.log(rightNow.getHours())
+// console.log(rightNow.getMinutes())
+// console.log(rightNow.getSeconds())
+// console.log(rightNow.getMonth())
+// var rightNow = new Date() 
+// // var doomsday = new Date("June 30, 2035");
+// // console.log(doomsday.getDate())
+// rightNow.setFullYear(2003)
+// console.log(rightNow)
+// var greetings = "salam"
+
+// function convertToCapitalCase(str) {
+//     console.log(greetings)
+
+// return str.charAt(0).toUpperCase()+str.slice(1).toLowerCase()
+
+
+// }
+// var hello = convertToCapitalCase('hello ')
+// var hello1 = convertToCapitalCase('waNIa ')
+// var hello = convertToCapitalCase('hello ')
+
+// console.log(hello1)
+// var currentDate = new Date()
+// // console.log(currentDate.getDate())
+// // currentDate = new Date(19)
+// // currentDate.setDate(19)
+// // console.log(currentDate)
+
+// var myDOB = new Date("18-nov-2002")
+// var differenceAge = currentDate - myDOB
+// console.log(Math.round(differenceAge/(1000*60*60*24*365)))
+
+// function  myFun(name, ID){
+//     // console.log("hello")
+//     return "hello " +name + ID
+// }
+// var num = myFun("wania", " university")
+// console.log(num)
+//....................................when ever anyone put something in the prompt you get their enter date time day easily..................................
+
+// function letsDoIt (name){
+//     var postDate = new Date()
+//     return postDate
+
+// }
+// var u = prompt("your Name")
+// var dxy = letsDoIt(u)
+// alert(dxy)
+//...................................................X.......................................................
+
+//first word captilized
+// var userName = prompt("enter your name")
+// userName = userName[0].toUpperCase() + userName.slice(1).toLowerCase()
+// alert(userName)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

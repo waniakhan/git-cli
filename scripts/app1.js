@@ -191,3 +191,46 @@
 // console.log(pakistaniTeamPlayers2)
 
 
+//TASK:01: CHECK CURRENT YEAR IS A LEAP YEAR OR NOT
+function leapYear(){
+    var year = new Date().getFullYear()
+if(year==365) {
+    alert("this is a leap year")
+} else {
+    alert("this is not a leap year")
+}
+}
+leapYear()
+
+//TASK:02: NEXT LEAP YEAR
+function leapYears(){
+    var year1 = new Date().getFullYear();
+    for(i=0; i<10;i++){
+        var year =year1++;
+        var y = new Date(year, 1, 29).getDate();
+        if (y==29) {
+            alert(year+" is a leap year");
+        } else {
+            alert(year+" is not a leap year")
+        }
+    }
+}
+leapYears()
+
+//TASK:03: MAKE A FUNCTION TO GENERATE OTP...
+function genertaeOTP(){
+        var OTP = Math.ceil((Math.random()*3650) * (Math.random()*1000) )
+        return "G-" +OTP;
+    }
+    var getOTP = genertaeOTP();
+    alert("your OTP is: " +getOTP);
+
+
+//TASK:05: MAKE A FUNCTION THAT  CALCULATE YOUR AGE.....
+function age(myDOB){
+    var currentDate = new Date();
+    var differenceAge = currentDate - myDOB
+    alert("your age is:" + (Math.round(differenceAge/(1000*60*60*24*365))))
+}
+var myDOB = new Date(prompt("enter your date of birth, Month, Year:"))
+age(myDOB);
